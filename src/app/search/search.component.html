@@ -1,0 +1,64 @@
+<div class="list row">
+  <!--<div class="col-md-8">
+    <div class="input-group mb-4">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search by name"
+        [(ngModel)]="name"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="searchByName()"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>-->
+  <div class="col-md-6">
+    <h4>Game List</h4>
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let game of games; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setCurrentGame(game, i)"
+      >
+      {{game.gameName}}
+      </li>
+    </ul>
+
+    <button class="m-4 btn btn-sm btn-danger" (click)="deleteAllGames()">
+      Delete All
+    </button>
+  </div>
+  <div class="col-md-6">
+    <div *ngIf="currentGame">
+      <h4>Game</h4>
+      <div>
+        <label><strong>Name:</strong></label>
+        {{currentGame.gameName}} 
+      </div>
+      <div>
+        <label><strong>Description:</strong></label>
+        {{currentGame.gameDescription}}
+      </div>
+      <div>
+        <label><strong>Price:</strong></label>
+        {{currentGame.price}}
+      </div>
+
+      <a class="badge badge-warning" [routerLink]="['/games', currentid]">
+        Edit
+      </a>
+    </div>
+
+    <div *ngIf="!currentGame">
+      <br />
+      <p>Please click on a game</p>
+    </div>
+  </div>
+</div>

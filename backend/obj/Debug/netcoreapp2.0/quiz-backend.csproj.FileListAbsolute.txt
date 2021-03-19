@@ -1,0 +1,14 @@
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.json
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.deps.json
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.json
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.dev.json
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.dll
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csprojAssemblyReference.cache
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfoInputs.cache
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfo.cs
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csproj.CoreCompileInputs.cache
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\angular\Ex_Files_Building_Apps_Angular_Core (2)\Ex_Files_Building_Apps_Angular_Core\Exercise Files\07_07\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.genruntimeconfig.cache

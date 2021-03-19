@@ -1,0 +1,13 @@
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfoInputs.cache
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfo.cs
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.csproj.CoreCompileInputs.cache
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\appsettings.json
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\backend.deps.json
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.json
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.dev.json
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\backend.dll
+C:\angular\GameCatalog\backend\bin\Debug\netcoreapp2.0\backend.pdb
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.dll
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.pdb
+C:\angular\GameCatalog\backend\obj\Debug\netcoreapp2.0\backend.genruntimeconfig.cache

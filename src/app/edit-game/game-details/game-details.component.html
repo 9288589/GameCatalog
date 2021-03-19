@@ -1,0 +1,67 @@
+<div style="width: 500px; margin: auto">
+  <div *ngIf="currentGame" class="edit-form">
+    <h4>Game</h4>
+    <form>
+      <div class="form-group">
+        <label for="title">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="gameName"
+          [(ngModel)]="currentGame.gameName"
+          name="gameName"
+        />
+      </div>
+      <div class="form-group">
+        <label for="description">Game Description</label>
+        <input
+          type="text"
+          class="form-control"
+          id="gameDescription"
+          [(ngModel)]="currentGame.gameDescription"
+          name="gameDescription"
+        />
+      </div>
+      <div class="form-group">
+        <label for="price">Price</label>
+        <input
+          class="form-control"
+          id="price"
+          required
+          [(ngModel)]="currentGame.price"
+          name="price"
+        />
+      </div>
+      <div class="form-group">
+        <label for="price">Photo Url</label>
+        <input
+          class="form-control"
+          id="PhotoUrl"
+          required
+          [(ngModel)]="currentGame.gamePhotoUrl"
+          name="PhotoUrl"
+        />
+      </div>
+
+      <div class="form-group">
+        <label><strong>Status:</strong></label>
+      </div>
+    </form>
+
+    <button class="badge badge-danger mr-2" (click)="deleteGame()">
+      Delete
+    </button>
+
+    <button type="submit" class="badge badge-success" (click)="updateGame()">
+      Update
+    </button>
+    <p></p>
+  </div>
+  <div *ngIf="updated">
+    <h3 class="btn btn-success">You successfully updated a game!</h3>
+  </div>
+  <div *ngIf="!currentGame">
+    <br />
+    <p>This game is not accessible</p>
+  </div>
+</div>

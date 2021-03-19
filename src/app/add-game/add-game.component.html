@@ -1,0 +1,55 @@
+<div style="width: 500px; margin: auto;">
+    <div class="submit-form">
+      <div *ngIf="!submitted">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nameGame"
+            required
+            [(ngModel)]="game.gameName"
+            name="nameGame"
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="description">Description</label>
+          <input
+            class="form-control"
+            id="gameDescription"
+            required
+            [(ngModel)]="game.gameDescription"
+            name="gameDescription"
+          />
+        </div>
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input
+              class="form-control"
+              id="price"
+              required
+              [(ngModel)]="game.price"
+              name="price"
+            />
+          </div>
+          <div class="form-group">
+            <label for="gamePhotoUrl">Photo Url</label>
+            <input
+              class="form-control"
+              id="gamePhotoUrl"
+              required
+              [(ngModel)]="game.gamePhotoUrl"
+              name="gamePhotoUrl"
+            />
+          </div>
+  
+        <button (click)="createGame()" class="btn btn-success">Create</button>
+      </div>
+  
+      <div *ngIf="submitted">
+        <h3>You successfully created a game!</h3>
+        <button class="btn btn-success" (click)="newGame()">New..</button>
+      </div>
+    </div>
+  </div>
